@@ -144,8 +144,10 @@ for (var i = 0; i < num_go_stim; i++) {
   })
 }
 
-var practice_trials = jsPsych.randomization.repeat(practice_stimuli, 5); 
-var test_trials = jsPsych.randomization.repeat(test_stimuli_block, 35);   
+//var practice_trials = jsPsych.randomization.repeat(practice_stimuli, 5); 
+//var test_trials = jsPsych.randomization.repeat(test_stimuli_block, 35);   
+var practice_trials = jsPsych.randomization.repeat(practice_stimuli, 1); 
+var test_trials = jsPsych.randomization.repeat(test_stimuli_block, 3);   
 
 
 
