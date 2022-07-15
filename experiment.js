@@ -147,7 +147,7 @@ for (var i = 0; i < num_go_stim; i++) {
 //var practice_trials = jsPsych.randomization.repeat(practice_stimuli, 5); 
 //var test_trials = jsPsych.randomization.repeat(test_stimuli_block, 35);   
 var practice_trials = jsPsych.randomization.repeat(practice_stimuli, 1); 
-var test_trials = jsPsych.randomization.repeat(test_stimuli_block, 3);   
+var test_trials = jsPsych.randomization.repeat(test_stimuli_block, 2);   
 
 
 
@@ -315,5 +315,5 @@ go_nogo_experiment.push(reset_block)
 go_nogo_experiment.push(start_test_block);
 go_nogo_experiment.push(test_block);
 go_nogo_experiment.push(attention_node)
-go_nogo_experiment.push(post_task_block)
+//go_nogo_experiment.push(post_task_block)
 go_nogo_experiment.push(end_block)
