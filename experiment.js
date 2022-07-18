@@ -315,5 +315,5 @@ go_nogo_experiment.push(reset_block)
 go_nogo_experiment.push(start_test_block);
 go_nogo_experiment.push(test_block);
 go_nogo_experiment.push(attention_node)
-go_nogo_experiment.push(post_task_block)
+//go_nogo_experiment.push(post_task_block)
 go_nogo_experiment.push(end_block)
