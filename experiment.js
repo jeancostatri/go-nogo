@@ -95,7 +95,8 @@ var instructTimeThresh = 0 ///in seconds
 var credit_var = true
 
 // task specific variables
-var num_go_stim = 9 //per one no-go stim
+//var num_go_stim = 9 //per one no-go stim
+var num_go_stim = 6 //per one no-go stim
 var correct_responses = [
   ['go', 32],
   ['nogo', -1]
@@ -144,10 +145,10 @@ for (var i = 0; i < num_go_stim; i++) {
   })
 }
 
-var practice_trials = jsPsych.randomization.repeat(practice_stimuli, 5); 
-var test_trials = jsPsych.randomization.repeat(test_stimuli_block, 35);   
-//var practice_trials = jsPsych.randomization.repeat(practice_stimuli, 1); 
-//var test_trials = jsPsych.randomization.repeat(test_stimuli_block, 2);   
+//var practice_trials = jsPsych.randomization.repeat(practice_stimuli, 5); 
+//var test_trials = jsPsych.randomization.repeat(test_stimuli_block, 35);   
+var practice_trials = jsPsych.randomization.repeat(practice_stimuli, 3); 
+var test_trials = jsPsych.randomization.repeat(test_stimuli_block, 34);   
 
 
 
